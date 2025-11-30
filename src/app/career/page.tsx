@@ -9,7 +9,7 @@ export default function Career() {
         <>
             <div>
                 <div className={styles.Job}>
-                    <h1 onClick={() => Router.push("/career/software-engineer")}>Software Engineer</h1>
+                    <h1 onClick={() => Router.push("/career/softwareengineer")}>Software Engineer</h1>
                 </div>
             </div>
         </>
