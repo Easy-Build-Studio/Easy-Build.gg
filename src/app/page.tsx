@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.ezbuild}>Easy Build Studio</h1>
+      <h1 className={styles.ezbuild} onClick={() => router.replace("https://www.roblox.com/communities/36026412/EZBuild-Studio#!/about")}>Easy Build Studio</h1>
       <button onClick={() => router.push("/career")} className={styles.btn}>
         Career
       </button>
